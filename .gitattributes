@@ -1,0 +1,12 @@
+# 统一文本换行,二进制文件不做转换
+* text=auto eol=lf
+
+# Unity / 资源二进制
+*.psd   binary
+*.png   binary
+*.jpg   binary
+*.tga   binary
+*.fbx   binary
+*.unity binary
+*.prefab binary
+*.asset binary
