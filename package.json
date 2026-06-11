@@ -1,0 +1,27 @@
+{
+  "name": "com.liyu.psd2prefab",
+  "version": "1.1.0",
+  "displayName": "PSD2Prefab",
+  "description": "Convert Photoshop PSD files into UGUI prefabs. Pure C# PSD parser (no Photoshop required): slices layers into sprites, rebuilds group hierarchy and positions, converts text layers to Text/TextMeshPro, and auto-adds Button to btn_ layers.",
+  "unity": "2021.3",
+  "keywords": [
+    "psd",
+    "photoshop",
+    "ugui",
+    "prefab",
+    "ui",
+    "editor"
+  ],
+  "author": {
+    "name": "liyu",
+    "email": "shiliyu1991@gmail.com"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Sample PSD",
+      "description": "A test PSD with nested groups, unicode layer names and btn_ naming.",
+      "path": "Samples~/Example"
+    }
+  ]
+}

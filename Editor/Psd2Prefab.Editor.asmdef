@@ -1,0 +1,30 @@
+{
+    "name": "Psd2Prefab.Editor",
+    "rootNamespace": "Psd2Prefab",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "2.0.0",
+            "define": "PSD2PREFAB_TMP"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "2.0.0",
+            "define": "PSD2PREFAB_TMP"
+        }
+    ],
+    "noEngineReferences": false
+}
